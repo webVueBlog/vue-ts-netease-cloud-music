@@ -1,5 +1,7 @@
 # vue-qq-music
 
+## 文档
+
 ## Project setup
 ```
 yarn install
