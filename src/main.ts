@@ -5,6 +5,14 @@ import router from './router';
 import store from './store';
 import SvgIcon from 'vue-svgicon';
 import '@/assets/components';
+import '@/utils/rem';
+import VueMeta from 'vue-meta';
+import ElementUI from 'element-ui';
+
+Vue.use(VueMeta);
+
+Vue.use(ElementUI, {
+});
 
 Vue.use(SvgIcon, {
   tagName: 'svg-icon',
