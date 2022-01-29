@@ -63,7 +63,7 @@ yarn v 1.22.11
 
 ## 截图
 
-![主页](./demo/home.png))
+![主页](./demo/home.png)
 
 ```js
 "dependencies": {
