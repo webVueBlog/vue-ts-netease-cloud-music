@@ -119,13 +119,13 @@ https://neteasecloudmusicapi.vercel.app/#/
 
 ## 魔改
 
-- **_Vue_** 全家桶 通过 Vue-CLI3 初始化生成。
-- **_ElementUI_** 魔改样式。
-- **_better-scroll_** 歌词滚动部分用了黄轶老大的 （贼爽）
-- **_CSS Variables_** 主题换肤。
-- **_ESNext_** （JavaScript 语言的下一代标准）
+- **_Vue_** 全家桶 通过 Vue-CLI4 初始化生成。
+- **_ElementUI_** 修改样式。
 - **_Sass_**（CSS 预处理器）
-- **_postcss-pxtorem_**（自动处理 rem，妈妈再也不用担心屏幕太大太小了）
+- **_ESNext_** （JavaScript 语言的下一代标准）
+- **_better-scroll_** 歌词滚动。
+- **_CSS Variables_** 主题换肤。
+- **_postcss-pxtorem_** 自动处理 rem。
 - **_workbox-webpack-plugin_** 谷歌开发的利用 Service Worker 实现页面预缓存的插件。
 
 ## Screenshots
