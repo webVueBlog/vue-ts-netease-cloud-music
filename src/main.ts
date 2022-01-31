@@ -10,10 +10,17 @@ import VueMeta from 'vue-meta'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import '@/style/index.scss'
+import VueLazyload from 'vue-lazyload'
+import { EMPTY_IMG } from './utils/dom'
 
 Vue.use(VueMeta)
 
 Vue.use(ElementUI)
+
+Vue.use(VueLazyload, {
+  loading: EMPTY_IMG,
+  error: EMPTY_IMG,
+})
 
 Vue.use(SvgIcon, {
   tagName: 'svg-icon',
